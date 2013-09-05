@@ -1,0 +1,10 @@
+langueage: ruby
+rvm:
+- 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: gRHEh81oAfma9gtVYSC1WLiBnrEp7Bd9eZtkQMhEERGVskQB5vzs2S5+zZWbXGdkqEX1O8HIgmw24vLxPrTj3NYqx7EoyiFXQc8BbGmWX74Xo54FoWUH9Z7fzgl13J/9oxub+n3o9/FvCufA95kwq/Nal/vJ3v/RNXDkkooGLG8=
+  app: whispering-beach-8357
+  on:
+    repo: NoguHiro/rakuten-ws-rails-sample
